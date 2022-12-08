@@ -1,0 +1,85 @@
+
+{% extends 'base.html' %}
+{%load static%}
+{%block content%}
+<!--  <main id="main"> -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="padding-top: 110px">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="{%static 'assets/img/about.jpg' %}" class="img-fluid" style = 'height: auto;'alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>We're Comfortable Being the Geniuses Behind the Scenes,But Sometimes People Want to know More About Us</h3>
+            <p class="font-italic">
+              We are an elite team committed to innovation and excellence.We believe in customer satisfaction.Thats why we are committed to providing world-class services to all our customers.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> 24/7 Customer Support</li>
+              <li><i class="ri-check-double-line"></i> Quality website design and Hosting</li>
+              <li><i class="ri-check-double-line"></i> Android Aplications Development and Support</li>
+            </ul>
+            <p>
+              At Velocity,we work to solve the biggest digital problems.Publishers dont know what apps to build,how to monetize them and what to price them at.Advertisers and brands dont know their target audience.Our mission is to solve this problems as well as ensure the digital economy is transparent.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    <!-- <Clients section> -->
+
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="owl-carousel clients-carousel">
+          <img src="{%static 'assets/img/clients/client-1.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-2.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-3.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-4.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-5.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-6.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-7.png' %}" alt="">
+          <img src="{%static 'assets/img/clients/client-8.png' %}" alt="">
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url({% static "assets/img/features.jpg"%})'; data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-check-double"></i>
+              <h4>Transparent</h4>
+              <p></p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-user-check"></i>
+              <h4>Customer Satisfaction</h4>
+              <p></p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bxs-stopwatch"></i>
+              <h4>Timely</h4>
+              <p></p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>Secure</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+  </main>
+
+    {%endblock content%}
+
